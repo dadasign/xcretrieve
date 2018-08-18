@@ -1,0 +1,9 @@
+/.hg/*
+/.idea/*
+/.gradle/*
+/build/
+/XCRetrieve/google-services.json
+/XCRetrieve/release/
+/XCRetrieve/build/
+/XCRetrieve/src/main/AndroidManifest.xml
+*.apk

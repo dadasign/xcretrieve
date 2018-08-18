@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/history_list_selector"
+                android:clickable="false"
+    android:duplicateParentState="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_icon"
+        android:src="@drawable/historia_sent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/status_icon"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/title"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tracking_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_toLeftOf="@+id/details_arrow"
+        android:layout_toStartOf="@+id/details_arrow"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_arrow"
+        android:src="@drawable/historia_details_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/orange"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+
+
+</RelativeLayout>

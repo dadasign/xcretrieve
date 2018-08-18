@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_light"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/complete_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/wizard_code" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/complete_msg"
+        android:layout_alignRight="@+id/complete_msg"
+        android:layout_below="@+id/complete_msg"
+        android:layout_marginTop="14dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/turn_on_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pass"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="25dp"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/turn_off_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/turn_on_btn"
+        android:layout_alignBottom="@+id/turn_on_btn"
+        android:layout_alignLeft="@+id/pass"
+        android:text="@string/back" />
+
+</RelativeLayout>

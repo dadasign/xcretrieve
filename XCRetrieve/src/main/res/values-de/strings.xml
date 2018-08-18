@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_install_text_phone">Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind.</string>
+    <string name="common_google_play_services_install_text_tablet">Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind.</string>
+    <string name="common_google_play_services_install_button">Play-Dienste installieren</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_enable_text">Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren.</string>
+    <string name="common_google_play_services_enable_button">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_update_text">Diese App wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren.</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="app_name">XCRetrieve</string>
+    <string name="enter_pass">Geben Sie Ihr Passwort ein:</string>
+    <string name="select_contacts">Wählen Sie berechtigte Kontakte, damit Sie zu finden:</string>
+    <string name="allow_all">Erlauben Sie Jedem zu finden</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_test">Simulieren</string>
+    <string name="menu_sender">Senden meiner Position</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_wizard">Konfigurationseinstellungen</string>
+    <string name="next">Weiter</string>
+    <string name="back">Zurück</string>
+    <string name="add_contact">Kontakt hinzufügen</string>
+    <string name="tracking_on">"Tracking-Service
+ist aktiviert"</string>
+    <string name="tracking_off">"Tracking-Service
+ist deaktiviert"</string>
+    <string name="tracking_service">Tracking-Service</string>
+    <string name="remove">Entfernen</string>
+    <string name="test_here">Sie können die Tracking-Service hier testen</string>
+    <string name="simulated_sms_content">Inhalt eines simulierten SMS:</string>
+    <string name="response_message">Antwort:</string>
+    <string name="status">Status:</string>
+    <string name="ready">Bereit</string>
+    <string name="locating_gps">Darstellende GPS-Position</string>
+    <string name="locating_network">Darstellende Speicherort im Mobilnetz</string>
+    <string name="position_1_received">GPS-Position 1 von 2 empfangen</string>
+    <string name="invalid_message">Simulierte SMS hat ein ungültiges Format oder falsches Kennwort. Keine Reaktion würde gesendet werden</string>
+    <string name="send">Simulieren Empfang der SMS</string>
+    <string name="failed_msg">Erkennen der GPS-Position fehlgeschlagen.</string>
+    <string name="from">Von:</string>
+    <string name="lat_label">Lat:</string>
+    <string name="lon_label">Lng:</string>
+    <string name="alt_label">Höhe:</string>
+    <string name="alt_baro_label">Höhe (baro):</string>
+    <string name="heading_label">Richtung:</string>
+    <string name="speed_label">Geschwindigkeit:</string>
+    <string name="movement_label">Bewegung:</string>
+    <string name="relative_pos_label">Relative Lage Position zu Dir:</string>
+    <string name="same_place">Sie sind an der gleichen Stelle.</string>
+    <string name="waiting_for_gps">Warten auf GPS-Fix</string>
+    <string name="received_position">Empfangen Position</string>
+    <string name="movement_0">Keine Bewegung wird erkannt (0/6)</string>
+    <string name="movement_1">Möglich leichte Bewegung (1/6)</string>
+    <string name="movement_2">Leichte Bewegung erkannt (2/6)</string>
+    <string name="movement_3">Mittlere Bewegung erkannt (3/6)</string>
+    <string name="movement_4">Bewegung erkannt (4/6)</string>
+    <string name="movement_5">Intensive Bewegung erkannt (5/6)</string>
+    <string name="movement_6">Sehr intensive Bewegung erkannt (6/6)</string>
+    <string name="geolocation_source_label">Geolocation Quelle:</string>
+    <string name="source_network">Network (Nicht-GPS)</string>
+    <string name="source_gps">GPS</string>
+    <string name="last_position">Letzte Position</string>
+    <string name="display_map_position">Anzeige Position auf der Karte (Standard)</string>
+    <string name="map_map">Karte</string>
+    <string name="map_terrain">Gelände</string>
+    <string name="map_satelite">Satellit</string>
+    <string name="map_hybrid">Hybrid</string>
+    <string name="show_in_google_maps">Senden auf Google Maps</string>
+    <string name="get_directions">Route</string>
+    <string name="send_my_position">Senden meine Position</string>
+    <string name="send_using">Senden mit:</string>
+    <string name="my_position">Meine Position</string>
+    <string name="gps_off_warning">"GPS ausgeschaltet!
+ Bitte aktivieren Sie GPS in Ihre Gerät, um eine genaue Verfolgung zu ermöglichen."</string>
+    <string name="empty_contacts_warning">Du hast niemandem erlaubt Dich zu verfolgen. Gehen Sie bitte auf Einstellungen und wählen Sie Kontakte aktivieren, damit Sie verfolgen werden können.</string>
+    <string name="no_password_defined">"Kein Passwort definiert.
+ Diese Einstellung ist unsicher und kann zu unerwarteten Kosten führen."</string>
+    <string name="wizard_start">"Hallo,
+ das ist ein kurzer Konfigurationseinstellungen guide, die Ihnen helfen schnell XCRetrieve zu konfigurieren."</string>
+    <string name="wizard_skip">Guide beenden</string>
+    <string name="wizard_code">"Jeder der versucht Ihren Standort zu erhalten, muss SMS-Nachricht beginnend mit xc@ gefolgt von dem Code, den Sie unten eingeben.
+
+ Bitte geben Sie einen Code:"</string>
+    <string name="wizard_contacts_allow">Sie können XCRetrieve begrenzen um nur ausgewähltenKontakten Anfragen zu beantworten. Möchten Sie das?</string>
+    <string name="wizard_contacts_yes">Ja lassen Sie mich Kontakte holen</string>
+    <string name="wizard_contacts_no">Nein, antworten auf Anfragen von Jedermann</string>
+    <string name="wizard_pick_contacts">Wählen Sie Kontakte, denen Sie erlauben Ihren Standort anfordern</string>
+    <string name="wizard_complete">"Sie haben erfolgreich XCRetrieve konfiguriert. Nun können Sie den Tracking-Service anschalten und immer wenn Sie eine SMS erhalten, beginnend mit:
+
+ code
+
+ XCRetrieve wird durch Senden einer SMS-Nachricht mit den Ortsdaten reagieren
+ Es dauert in der Regel zwischen 2 und 4 Minuten für XCRetrieve zu reagieren."</string>
+    <string name="wizard_turn_on">Schalten Sie jetzt den Tracking-Service an.</string>
+    <string name="wizard_turn_later">Schalten Sie das Tracking-Service noch nicht an.</string>
+    <string name="wizard_empty_contacts">Sie habben keine Kontakte gewählt um Sie verfolgen, wählen Sie bitte mindestens einen Kontakt damit dieser verfolgen kann.</string>
+    <string name="no_position_to_view">Es gibt keine Position zu sehen.</string>
+    <string name="no_phone">Keine Telefonnummer für diesen Kontakt.</string>
+    <string name="turn_on_gps">Ihr GPS scheint ausgeschaltet zu sein. Wollen Sie GPS aktivieren?</string>
+    <string name="wait_for_gps">Bitte warten Sie auf einen GPS-Fix.</string>
+    <string name="help_url">http://xcretrieve.dadasign.pl/help/en</string>
+    <string name="coord_format">Senden Koordinaten im Format:</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="location_accuracy">Genauigkeit:</string>
+    <string name="format_d">"Grad
+(lat: -23,399437 lng: 52,090904)"</string>
+    <string name="format_d_m">"Grad &amp; Minuten
+(lat:40:26.46302 lng:79:56.55903)"</string>
+    <string name="format_d_m_s">"Grad, Minuten und Sekunden
+(lat:40:26:47.21 lng:79:58:36.21)"</string>
+    <string name="format_google">"Google Maps-Link
+(https://maps.google.com/?q=41.046217, -74,355469)"</string>
+    <string name="history">Geschichte</string>
+    <string name="show_location_in_other_app">Senden auf Google Maps</string>
+    <string name="need_permissions_for_service">GPS location, as well as sending and receiving SMS messages permission is needed for this service to work.</string>
+    <string name="contact_access_needed">Access to your contacts is needed to check if incoming SMS comes from a valid phone number.</string>
+    <string name="permission_contacts_error">Error: no permission to read contacts, go to XcRetrieve settings and allow reading contacts or allow requests from everyone.</string>
+    <string name="error">Error</string>
+    <string name="select_phone_num">Select a phone number</string>
+    <string name="no_storage_access">Open Street Maps need storage access to display and cache maps.</string>
+</resources>

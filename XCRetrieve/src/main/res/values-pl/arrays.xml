@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sender_tab_titles">
+        <item>Mapa Google</item>
+        <item>OpenStreetMap</item>
+    </string-array>
+    <string-array name="settings_tab_titles">
+        <item>Kontakty</item>
+        <item>Hasło i ustawienia</item>
+        <item>Szybki SMS</item>
+    </string-array>
+    <string-array name="history_tab_titles">
+        <item>Historia</item>
+        <item>Szczegóły</item>
+        <item>Mapa Google</item>
+        <item>OpenStreetMap</item>
+    </string-array>
+    <string-array name="history_item_list">
+        <item>Usuń element</item>
+    </string-array>
+</resources>

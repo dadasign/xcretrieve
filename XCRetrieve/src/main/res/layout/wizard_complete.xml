@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_light"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/complete_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/wizard_complete" />
+
+    <Button
+        android:id="@+id/no_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/complete_msg"
+        android:layout_alignRight="@+id/complete_msg"
+        android:layout_below="@+id/yes_btn"
+        android:layout_marginTop="5dp"
+        android:text="@string/wizard_turn_later" />
+
+    <Button
+        android:id="@+id/yes_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/no_btn"
+        android:layout_alignRight="@+id/complete_msg"
+        android:layout_below="@+id/complete_msg"
+        android:layout_marginTop="17dp"
+        android:text="@string/wizard_turn_on" />
+
+</RelativeLayout>

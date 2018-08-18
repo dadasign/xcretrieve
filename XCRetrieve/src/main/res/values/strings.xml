@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="app_name">XCRetrieve</string>
+    <string name="enter_pass">Enter your password:</string>
+    <string name="select_contacts">Select contacts enabled to locate you:</string>
+    <string name="allow_all">Allow anyone to locate you</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_test">Simulate</string>
+    <string name="menu_sender">Share my position</string>
+    <string name="menu_show_log">Log</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_wizard">Run wizard</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="add_contact">Add contact</string>
+    <string name="tracking_on">"Tracking service
+is enabled"</string>
+    <string name="tracking_off">"Tracking service
+is disabled"</string>
+    <string name="tracking_service">Tracking service</string>
+    <string name="instant_position_service">Instant Position Service</string>
+    <string name="remove">Remove</string>
+    <string name="test_here">You can test the tracking service here</string>
+    <string name="simulated_sms_content">Content of a simulated message:</string>
+    <string name="response_message">Response:</string>
+    <string name="status">Status:</string>
+    <string name="ready">Ready</string>
+    <string name="locating_gps">Performing GPS location</string>
+    <string name="locating_network">Performing network location</string>
+    <string name="position_1_received">GPS position 1 of 2 received</string>
+    <string name="invalid_message">Simulated message has an invalid format or incorrect password. No response would be sent.</string>
+    <string name="send">Simulate receiving the message</string>
+    <string name="failed_msg">Failed to receive location data.</string>
+    <string name="lat_label">Lat: </string>
+    <string name="lon_label">Lng: </string>
+    <string name="alt_label">Altitude: </string>
+    <string name="alt_baro_label">Altitude (barometric): </string>
+    <string name="heading_label">Heading: </string>
+    <string name="speed_label">Speed: </string>
+    <string name="movement_label">Movement: </string>
+    <string name="km_h"> km/h</string>
+    <string name="baro"> (barometric)</string>
+    <string name="relative_pos_label">Relative to your position:</string>
+    <string name="same_place">You are in the same place.</string>
+    <string name="waiting_for_gps">Waiting for GPS fix</string>
+    <string name="received_position">Received position</string>
+    <string name="movement_unknown">Unknown movement value</string>
+    <string name="movement_0">No movement detected (0/6)</string>
+    <string name="movement_1">Possible slight movement (1/6)</string>
+    <string name="movement_2">Slight movement detected (2/6)</string>
+    <string name="movement_3">Some movement detected (3/6)</string>
+    <string name="movement_4">Movement detected (4/6)</string>
+    <string name="movement_5">Intense movement detected (5/6)</string>
+    <string name="movement_6">Very intense movement detected (6/6)</string>
+    <string name="geolocation_source_label">Geolocation source:</string>
+    <string name="source_network">Network (non-GPS)</string>
+    <string name="source_gps">GPS</string>
+    <string name="last_position">Last position</string>
+    <string name="display_map_position">Display position on map (default)</string>
+    <string name="map_map">Map</string>
+    <string name="map_terrain">Terrain</string>
+    <string name="map_satelite">Satellite</string>
+    <string name="map_hybrid">Hybrid</string>
+    <string name="show_in_google_maps">Send to Google Maps</string>
+    <string name="get_directions">Get directions</string>
+    <string name="send_my_position">Send my position</string>
+    <string name="send_using">Send using:</string>
+    <string name="my_position">My position</string>
+    <string name="from">From: </string>
+    <string name="to">To: </string>
+    <string name="gps_off_warning">"GPS is turned off!
+ Please enable GPS in your devices location settings to allow accurate tracking."</string>
+    <string name="empty_contacts_warning">You did not allow anyone to track you, please go to settings and select contacts enabled to track you.</string>
+    <string name="no_password_defined">"No password is defined and you have allowed anyone to track you.
+ This setting is insecure and may cause unexpected costs."</string>
+    <string name="wizard_start">"Hello,
+ this is a short wizard which will help you quickly configure XCRetrieve."</string>
+    <string name="wizard_skip">Exit wizard</string>
+    <string name="wizard_code">"Anyone trying to obtain your location will need to send an SMS message starting with xc@ followed by the code you can set below.
+If you decide to leave the code empty, XCRetrieve will respond with an SMS containing your location to any message starting with xc@
+
+Please enter a code:"</string>
+    <string name="wizard_contacts_allow">You can limit XCRetrieve to respond to location requests sent only from selected contacts. Would you like to do this?</string>
+    <string name="wizard_contacts_yes">Yes, let me pick them</string>
+    <string name="wizard_contacts_no">No, respond to requests from anyone</string>
+    <string name="wizard_pick_contacts">Select contacts which will be allowed to request your location</string>
+    <string name="wizard_complete">"You have successfully configured XCRetrieve. Now you can turn the tracking service on, and whenever you receive a message starting with:
+
+ code
+
+XCRetrieve will respond by sending an SMS message with your location data.
+It usually takes between 2 and 4 minutes for XCRetrieve to respond."</string>
+    <string name="wizard_turn_on">Turn the tracking service on now.</string>
+    <string name="wizard_turn_later">Do not turn the tracking service on yet.</string>
+    <string name="wizard_empty_contacts">You did not allow anyone to track you, please select at least one contact enabled to track you.</string>
+    <string name="no_position_to_view">There is no position to view.</string>
+    <string name="no_phone">No phone number for this contact.</string>
+    <string name="turn_on_gps">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="wait_for_gps">Please wait for a GPS fix, before sharing your position.</string>
+    <string name="help_url">http://xcretrieve.dadasign.pl/help/en</string>
+    <string name="coord_format">Send coordinates using format:</string>
+    <string name="other_settings">Other options:</string>
+    <string name="clear_history">Clear History</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="change_format">Change format</string>
+    <string name="copy_success">Copied to clipboard:</string>
+    <string name="copy">Copy</string>
+    <string name="copy_label">Copy:</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="location_accuracy">Location accuracy:</string>
+    <string name="both">Both</string>
+    <string name="history_was_cleared">History was cleared</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_clear_history">Are you sure you want to remove all locations from history?</string>
+    <string name="format_d">"Degrees
+(lat:-23.399437 lng:52.090904)"</string>
+    <string name="format_d_m">"Degrees &amp; minutes
+(lat:40:26.46302 lng:79:56.55903)"</string>
+    <string name="format_d_m_s">"Degrees, minutes &amp; seconds
+(lat:40:26:47.21 lng:79:58:36.21)"</string>
+    <string name="format_google">"Google Maps link
+(https://maps.google.com/?q=41.046217,-74.355469)"</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="history">History</string>
+    <string name="status_label">Status: </string>
+    <string name="status_loc_failed">Geolocation failed</string>
+    <string name="status_sent_loc_failed">Sent geolocation failed message</string>
+    <string name="status_sending">Sending</string>
+    <string name="status_loc_in_progress">Geolocation in progress</string>
+    <string name="status_loc_complete">Geolocation successful</string>
+    <string name="show_location_in_other_app">Show location in other app</string>
+    <string name="one_click_description">One click position sending is an optional feature. Enabling it will create a button on the main screen, it will allow you to instantly send your position by a text message to a defined user. You will be asked to select that user in the next step.</string>
+    <string name="one_click_sending_title">One Click Position Sending</string>
+    <string name="one_click_request_title">One Click Request Sending</string>
+    <string name="one_click_request_description">Enabling it will create a button on the main screen, it will allow you to instantly send a request to view a predefined users position. You will be asked to select that user in the next step.</string>
+    <string name="xc_at">xc@</string>
+    <string name="enable_one_click_sending">Enable one click sending</string>
+    <string name="enable_one_click_requests">Enable one click requests</string>
+    <string name="one_click_request_password">Password sent with the request:</string>
+    <string name="one_click_sending_user">One click positions will be sent to: </string>
+    <string name="one_click_request_user">One click requests will be sent to: </string>
+    <string name="one_click_request_instant">Request instant position ("-i") - quicker response, no direction or speed in response.</string>
+    <string name="sending_request_sms">Sending SMS with tracking request&#8230;</string>
+    <string name="sent_request_sms">Successfully sent SMS with tracking request.</string>
+    <string name="send_request_sms_failed">Failed to send SMS with tracking request.</string>
+    <string name="sent_position_title">Sent your position</string>
+    <string name="sent_position_content">Your position was sent at [time] to [user].\n ([content])</string>
+    <string name="sent_position_failed_title">Failed sending.</string>
+    <string name="sent_position_failed">Failed to send your position at [time].</string>
+    <string name="sending_position">Will send your position&#8230;</string>
+    <string name="change_recipient">Change recipient</string>
+    <string name="need_permissions_for_service">GPS location, as well as sending and receiving SMS messages permission is needed for this service to work.</string>
+    <string name="contact_access_needed">Access to your contacts is needed to check if incoming SMS comes from a valid phone number.</string>
+    <string name="permission_contacts_error">Error: no permission to read contacts, go to XcRetrieve settings and allow reading contacts or allow requests from everyone.</string>
+    <string name="error">Error</string>
+    <string name="select_phone_num">Select a phone number</string>
+    <string name="no_storage_access">Open Street Maps need storage access to display and cache maps.</string>
+</resources>

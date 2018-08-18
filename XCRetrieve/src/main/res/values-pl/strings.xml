@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Pobierz Usługi Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Ta aplikacja nie będzie działać bez Usług Google Play, których brak na telefonie.</string>
+    <string name="common_google_play_services_install_text_tablet">Ta aplikacja nie będzie działać bez Usług Google Play, których brak na tablecie.</string>
+    <string name="common_google_play_services_install_button">Pobierz Usługi Google Play</string>
+    <string name="common_google_play_services_enable_title">Włącz Usługi Google Play</string>
+    <string name="common_google_play_services_enable_text">Ta aplikacja nie będzie działać, jeśli nie włączysz Usług Google Play.</string>
+    <string name="common_google_play_services_enable_button">Włącz Usługi Google Play</string>
+    <string name="common_google_play_services_update_title">Aktualizuj Usługi Google Play</string>
+    <string name="common_google_play_services_update_text">Ta aplikacja nie będzie działać, jeśli nie zaktualizujesz Usług Google Play.</string>
+    <string name="common_google_play_services_update_button">Aktualizuj</string>
+    <string name="app_name">XCRetrieve</string>
+    <string name="enter_pass">Wpisz hasło:</string>
+    <string name="select_contacts">Wybierz kontakty, upoważnione do lokalizacji:</string>
+    <string name="allow_all">Pozwól każdemu mnie zlokalizować</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_test">Symulator</string>
+    <string name="menu_sender">Udostępnij moją pozycję</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_wizard">Konfigurator ustawień</string>
+    <string name="next">Dalej</string>
+    <string name="back">Cofnij</string>
+    <string name="add_contact">Dodaj kontakt</string>
+    <string name="tracking_on">"Usługa śledzenia
+jest włączona"</string>
+    <string name="tracking_off">"Usługa śledzenia
+jest wyłączona"</string>
+    <string name="tracking_service">Usługa śledzenia</string>
+    <string name="remove">Usuń</string>
+    <string name="test_here">Tu możesz przetestować usługę śledzenia</string>
+    <string name="simulated_sms_content">Treść symulowanej wiadomości:</string>
+    <string name="response_message">Odpowiedź:</string>
+    <string name="status">Status:</string>
+    <string name="ready">Gotowy</string>
+    <string name="locating_gps">Lokalizacja GPS</string>
+    <string name="locating_network">Lokalizacja sieciowa</string>
+    <string name="position_1_received">Pozycja GPS 1 z 2 odebrana. Czekam 60 sekund</string>
+    <string name="invalid_message">Symulowana wiadomość ma nieprawidłową treść lub błędne hasło. Żadna odpowiedź nie zostałaby wysłana.</string>
+    <string name="send">Symuluj odebranie tej wiadomości</string>
+    <string name="failed_msg">Lokalizacja sie nie powiodla.</string>
+    <string name="lat_label">Lat:</string>
+    <string name="lon_label">Lng:</string>
+    <string name="alt_label">Wysokość NPM:</string>
+    <string name="alt_baro_label">Wysokość NPM (barometryczna): </string>
+    <string name="heading_label">Kierunek:</string>
+    <string name="speed_label">Prędkość:</string>
+    <string name="movement_label">Ruch:</string>
+    <string name="relative_pos_label">Położenie względem Ciebie:</string>
+    <string name="same_place">Jesteś w tym samym miejsu.</string>
+    <string name="waiting_for_gps">Oczekiwanie na GPS</string>
+    <string name="received_position">Odebrane położenie</string>
+    <string name="movement_0">Nie wykryto ruchu (0/6)</string>
+    <string name="movement_1">Możliwy słaby ruch (1/6)</string>
+    <string name="movement_2">Wykryto słaby ruch (2/6)</string>
+    <string name="movement_3">Wykryto umiarkowanie słaby ruch (3/6)</string>
+    <string name="movement_4">Wykryto ruch (4/6)</string>
+    <string name="movement_5">Wykryto intensywny ruch (5/6)</string>
+    <string name="movement_6">Wykryto bardzo intensywny ruch (6/6)</string>
+    <string name="geolocation_source_label">Źródło lokalizacji:</string>
+    <string name="source_network">Sieć (nie GPS)</string>
+    <string name="source_gps">GPS</string>
+    <string name="last_position">Ostatnie położenie</string>
+    <string name="display_map_position">Wyświetl położenie na mapie (domyślnie)</string>
+    <string name="map_map">Mapa</string>
+    <string name="map_terrain">Teren</string>
+    <string name="map_satelite">Satelita</string>
+    <string name="map_hybrid">Hybryda</string>
+    <string name="show_in_google_maps">Wyślij do Google Maps</string>
+    <string name="get_directions">Wskazówki dojazdu</string>
+    <string name="send_my_position">Wyślij moją pozycję</string>
+    <string name="send_using">Wyślij poprzez:</string>
+    <string name="my_position">Moja pozycja</string>
+    <string name="from">Od: </string>
+    <string name="to">Do: </string>
+    <string name="gps_off_warning">"GPS jest wyłączony!
+ Włącz GPS aby umożliwić precyzyjną lokalizację."</string>
+    <string name="empty_contacts_warning">Nie pozwoliłeś nikomu Cię śledzić. Przejdź do ustawień i wybierz upoważnione kontakty.</string>
+    <string name="no_password_defined">Nie wybrałeś żadnego hasła i pozoliłeś każdemu Cię śledzić. To ustawienie nie jest bezpieczne i może Cię narazić na koszty.</string>
+    <string name="wizard_start">"Witaj,
+ to jest prosty konfigurator, który pozwoli szybko ustawić tą aplikację."</string>
+    <string name="wizard_skip">Zamknij konfigurator</string>
+    <string name="wizard_code">"Każdy kto będzie chciał uzyskać Twoją lokalizacje musi wysłać wiadomość SMS zaczynającą się od xc@ a następnie kodu który ustawisz poniżej.
+Jeżeli nie ustawisz żadnego kodu, lokalizacja zostanie odesłana w odpowiedzi na kązdy sms zaczynający się od xc@
+
+Wpisz kod:"</string>
+    <string name="wizard_contacts_allow">Możesz ograniczyć aplikację do odpowiadania na wiadomości wysłane wyłącznie od określonych kontaktów. Czy chcesz to zrobić?</string>
+    <string name="wizard_contacts_yes">Tak, pozwól mi wybrać kontakty</string>
+    <string name="wizard_contacts_no">Nie, odpowiadaj na SMSy z każdego źródła</string>
+    <string name="wizard_pick_contacts">Wybierz kontakty uprawnione do wysyłania zapytań o Twoją lokalizację:</string>
+    <string name="wizard_complete">"Pomyślnie skonfigurowałeś XCRetrieve. Możesz teraz włączyć usługę śledzenia i po otrzymaniu wiadomości o treści:
+
+ code
+
+XCRetrieve odpowie SMSem z informacjami o Twojej lokalizacji.
+Na ogół czas odpowiedzi mieści się między 2 a 4 minutami."</string>
+    <string name="wizard_turn_on">Włącz usługę teraz.</string>
+    <string name="wizard_turn_later">Nie włączaj usługi teraz.</string>
+    <string name="wizard_empty_contacts">Nie wybrałeś żadnego kontaku. Proszę wybrać przynajmniej jeden.</string>
+    <string name="no_position_to_view">Nie ma żadnej pozycji do podglądu.</string>
+    <string name="no_phone">Ten kontakt nie ma numeru telefonu.</string>
+    <string name="turn_on_gps">Twój GPS jest wyłączony, czy chcesz go włączyć?</string>
+    <string name="wait_for_gps">Poczekaj na uzyskanie lokalizacji przez GPS.</string>
+    <string name="help_url">http://xcretrieve.dadasign.pl/help/pl</string>
+    <string name="coord_format">Format wysyłanych koordynatów:</string>
+    <string name="other_settings">Inne opcje:</string>
+    <string name="clear_history">Wyczyść historię</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="change_format">Inny format</string>
+    <string name="copy_success">Skopiowano do schowka:</string>
+    <string name="copy">Kopiuj</string>
+    <string name="copy_label">Kopiuj:</string>
+    <string name="latitude">Wys. geo</string>
+    <string name="longitude">Szer. geo</string>
+    <string name="location_accuracy">Dokładność:</string>
+    <string name="both">Obie wartości</string>
+    <string name="history_was_cleared">Historia została wyczyszczona.</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="confirm_clear_history">Czy jesteś pewny, że chcesz usunąć wszystkie lokalizacje z historii?</string>
+    <string name="format_d">"Stopnie
+(lat:-23.399437 lng:52.090904)"</string>
+    <string name="format_d_m">"Stopnie i minuty
+(lat:40:26.46302 lng:79:56.55903)"</string>
+    <string name="format_d_m_s">"Stopnie, minuty i sekundy
+(lat:40:26:47.21 lng:79:58:36.21)"</string>
+    <string name="format_google">"Link do Google Maps
+(https://maps.google.com/?q=41.046217,-74.355469)"</string>
+    <string name="history">Historia</string>
+    <string name="status_label">Status: </string>
+    <string name="status_loc_failed">Lokalizacja nieudana</string>
+    <string name="status_sent_loc_failed">Wysłano wiadomość, lokalizacja nieudana</string>
+    <string name="status_sending">Wysyłanie</string>
+    <string name="status_loc_in_progress">W trakcie lokalizacji</string>
+    <string name="status_loc_complete">Lokalizacja udana</string>
+    <string name="show_location_in_other_app">Otwórz lokalizację w innej aplikacji</string>
+    <string name="one_click_description">Szybkie wysyłanie lokalizacji jest opcjonalne. Włączenie funkcji doda guzik na głównym ekranie. Naciskając go wyślesz SMS ze swoją lokalizacją do zdefiniowanego odbiorcy. Odbiorcę będziesz mógł wybrać w następnym kroku.</string>
+    <string name="one_click_sending_title">Szybkie wysyłanie pozycji</string>
+    <string name="one_click_request_title">Szybkie wysyłanie zapytań</string>
+    <string name="one_click_request_description">Szybkie wysyłanie zapytań jest opcjonalne. Włączenie funkcji doda guzik na głównym ekranie aplikacji. Naciskając go wyślesz SMS z zapytaniem o pozycję do zdefiniowanego odbiorcy. Odbiorcę będziesz mógł wybrać w następnym kroku.</string>
+    <string name="xc_at">xc@</string>
+    <string name="enable_one_click_sending">Włącz szybkie wysyłanie lokalizacji</string>
+    <string name="enable_one_click_requests">Włącz szybkie wysyłanie zapytań</string>
+    <string name="one_click_request_password">Hasło wysłane z zapytaniem:</string>
+    <string name="one_click_sending_user">Lokalizacje będą wysyłane do: </string>
+    <string name="one_click_request_user">Zapytania będą wysyłane do: </string>
+    <string name="one_click_request_instant">Rządaj szybkiej odpowiedzi ("-i"), bez kierunku i prędkości.</string>
+    <string name="sending_request_sms">Wysyłam SMS z zapytaniem o lokalizację&#8230;</string>
+    <string name="sent_request_sms">SMS z zapytaniem o lokalizację został wysłany.</string>
+    <string name="send_request_sms_failed">Nie udało się wysłać SMSa z zapytaniem o lokalizację.</string>
+    <string name="sent_position_title">Wysłano Twoją lokalizację</string>
+    <string name="sent_position_content">Twoja lokalizacja była wysłana o [time] do [user].\n ([content])</string>
+    <string name="sent_position_failed_title">Błąd w wysyłaniu</string>
+    <string name="sent_position_failed">Nie udało się wysłać lokalizacji o [time].</string>
+    <string name="sending_position">Twoja lokalizacja zostanie wysłana&#8230;</string>
+    <string name="change_recipient">Change recipient</string>
+    <string name="need_permissions_for_service">Uprawnienia do lokalizacji GPS oraz wysyłania i odbierania wiadomości są potrzebne do działania tej usługi.</string>
+    <string name="contact_access_needed">Dostęp do Twoich kontaktów jest potrzebny by sprawdzić czy zapytanie otrzymujesz od uprawnionego numeru telefonicznego.</string>
+    <string name="permission_contacts_error">Błąd: brak uprawnień do czytania kotaktów, przejdź do ustawień XcRetrieve i pozwól na czytanie kontaktów, lub pozwól wszystkim na wysyłąnie zapytań.</string>
+    <string name="error">Błąd</string>
+    <string name="select_phone_num">Wybierz numer telefonu</string>
+    <string name="no_storage_access">Open Street Maps może nie działać prawidłowo bez dostępu do zapisu w pamięci.</string>
+</resources>

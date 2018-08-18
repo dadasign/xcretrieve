@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/data_holder"
+            android:background="@drawable/background_light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/from_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/from"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/lat_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/lat_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/lon_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/lon_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/alt_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/alt_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/heading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/heading_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/speed_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/speed_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/source_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/geolocation_source_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/movement_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/movement_label"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/relative_pos_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/relative_pos_label"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+
+        </ScrollView>
