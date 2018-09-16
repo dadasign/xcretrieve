@@ -17,6 +17,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -43,6 +44,7 @@ public class ContactsFragment extends Fragment  {
 	private SharedPreferences settings;
     private static final int PERMISSION_REQUEST_SERVICE_ON=1;
     private static final int PERMISSION_REQUEST_SERVICE_CONTACT_ADD=2;
+    String [] PROJECTION = new String [] {  ContactsContract.Contacts.LOOKUP_KEY, ContactsContract.Contacts.HAS_PHONE_NUMBER, ContactsContract.Contacts.DISPLAY_NAME, ContactsContract.Contacts._ID };
 	
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -103,16 +105,21 @@ public class ContactsFragment extends Fragment  {
                         String id = contact_data.getString(x);
                         Uri lookupUri = Uri.withAppendedPath(ContactsContract.Contacts.CONTENT_LOOKUP_URI, id);
                         Uri res = ContactsContract.Contacts.lookupContact(getActivity().getContentResolver(), lookupUri);
-                        Cursor c = getActivity().getContentResolver().query(res, null, null, null, null);
-                        if (c.moveToFirst()) {
-                            int hasPhone = c.getInt(c.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER));
-                            if (hasPhone == 0) {
-                                continue;
+                        try {
+                            Cursor c = getActivity().getContentResolver().query(res, PROJECTION, null, null, null);
+                            if (c.moveToFirst()) {
+                                int hasPhone = c.getInt(c.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER));
+                                if (hasPhone == 0) {
+                                    continue;
+                                }
+                                Contact contact = new Contact();
+                                contact.id = c.getString(c.getColumnIndex(ContactsContract.Contacts.LOOKUP_KEY));
+                                contact.name = c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
+                                contacts.add(contact);
                             }
-                            Contact contact = new Contact();
-                            contact.id = c.getString(c.getColumnIndex(ContactsContract.Contacts.LOOKUP_KEY));
-                            contact.name = c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
-                            contacts.add(contact);
+                            c.close();
+                        }catch (NullPointerException e){
+                            Log.e("ContactsFragment","Null pointer exception on getContentResolver");
                         }
                     }
                 }
